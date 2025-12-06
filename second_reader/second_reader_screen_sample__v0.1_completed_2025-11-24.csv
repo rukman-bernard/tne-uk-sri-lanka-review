@@ -1,0 +1,5 @@
+DocID,Source,Status,ReasonCode,IncludeInSample(YES/NO),SR_Decision(Agree/Disagree),SR_Reason,SR_Notes
+SLQF-23-001,SLQF,Borderline,B1,YES,Disagree,Sri Lankan HE framework must be I1 reason coded.,Context source for TNE setting; not a UK regulatory document (author-SR discussion resolved)
+BCSL-24-001,BCSL,Borderline,B1,YES,Agree,This is a research paper about the situation of the TNE HE in Sri Lanka in 2024 regardless the provider countries.,This contains rich valuable information about Sri Lanka need of TNE providers.
+OFQUAL-25-001,OFQUAL,Include,I3,YES,Agree,"Ofqual regulates qualifications, examinations, and assessments in England",This covers the GCSEs and A-levels
+UUK-25-001,UUK,Include,I3,YES,Agree,This contains the most recent UK TNE HE provisions for other coutries. ,This provides the hard proofs of the UK TNE HE activities on other coutries.

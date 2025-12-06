@@ -1,0 +1,16 @@
+DocID Index (v0.1)
+Evidence Freeze: 2025-11-24
+
+QAA-24-001    Frameworks for Higher Education Qualifications (2024)
+OFS-22-001    Securing Student Success: Regulatory Framework (2022)
+DFE-23-001    Framework Document between DfE and OfS (2023)
+ENIC-25-001   Statement of Comparability
+UUK-25-001    Scale of UK HE TNE 2021–22
+SCQF-25-001   SCQF Interactive Framework
+SFC-25-001    SFC Guidance on Quality (2024–30)
+WELSH-25-001  Regulation of Higher Education Providers (Wales)
+NIDE-25-001   NI Department for the Economy — Higher Education
+OFQUAL-25-001 Ofqual General Conditions of Recognition
+SLQF-23-001   Sri Lanka Qualifications Framework Manual
+BCSL-24-001   British Council Sri Lanka TNE Report (2024)
+

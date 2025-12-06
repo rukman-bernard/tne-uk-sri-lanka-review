@@ -1,0 +1,105 @@
+\section{Methods (Search and Selection)}
+
+\noindent
+\textbf{Protocol adherence.}  
+All screening, selection, extraction, and second-reader verification procedures
+followed a predefined protocol (Version~0.2), finalised prior to data
+collection. The protocol specifies the source universe, eligibility criteria,
+search strategy, DocID conventions, evidence-capture rules, and second-reader
+sampling plan. The full protocol is reproduced in Appendix~B and archived with
+the repository artefacts.
+
+
+\subsection{Sources}
+
+Two categories of sources informed the evidence base for this review:
+
+\begin{itemize}
+    \item \textbf{Fixed UK sources:} Office for Students (OfS); Quality Assurance Agency for Higher Education (QAA); Department for Education (DfE); UK~ENIC (ECCTIS); Universities UK (UUK); SCQF Partnership; Scottish Funding Council (SFC); Welsh Government / CTER; Department for the Economy Northern Ireland (DfE~NI); Ofqual.
+    \item \textbf{Context sources (Sri Lanka):} Sri Lanka Qualifications Framework 
+    (SLQF) / University Grants Commission (UGC); British Council Sri Lanka.
+\end{itemize}
+
+All sources correspond to entries in \texttt{screening\_log\_\_v0.1\_freeze\_2025-11-24.csv} (12 items).
+
+\subsection{Date Window}
+
+The search prioritised current versions in force as of 2025, with backwards lineage consulted to approximately 2008 where required to understand regulatory transitions or framework evolution.
+
+\subsection{Search Queries}
+
+Searches used eight predefined query groups executed verbatim on Google and source-domain search bars:
+
+\begin{itemize}
+    \item G1) \texttt|site:qaa.ac.uk ("FHEQ" OR "qualification descriptors" OR "levels")|
+    \item G2) \texttt|site:officeforstudents.org.uk (regulatory OR "conditions of registration" OR "validation" OR "franchise" OR "transnational education")|
+    \item G3) \texttt|site:ecctis.com (recognition OR comparability OR "GCE A/L" OR "Sri Lanka")|
+    \item G4) \texttt|site:gov.uk ("Quality Code" OR "sector-agreed principles" OR "higher education regulation")|
+    \item G5) \texttt|site:scqf.org.uk (SCQF OR "level descriptors" OR "credit")|
+    \item G6) \texttt|site:universitiesuk.ac.uk ("transnational education" OR TNE OR "quality assurance")|
+    \item G7) \texttt|("exit award" OR "intermediate award" OR CertHE OR DipHE OR "graduate diploma" OR "postgraduate diploma") site:.ac.uk filetype:pdf|
+    \item G8) \texttt|("validation" OR "franchise") ("partner" OR "delivery") ("quality assurance" OR "oversight") site:.ac.uk|
+\end{itemize}
+
+\subsection{Inclusion Criteria}
+
+In line with Protocol~v0.2, items were included where they met one or more of the following:
+
+\begin{itemize}
+    \item Official frameworks, award descriptors, and qualification statements.
+    \item Regulatory frameworks, conditions, sector-recognised principles.
+    \item University or awarding-body regulations for validation, franchise, or TNE.
+    \item Official guidance/handbooks for partnerships and external quality assurance.
+    \item Authoritative sector reports and peer-reviewed analyses relevant to TNE or recognition.
+\end{itemize}
+
+\subsection{Exclusion Criteria}
+
+Items were excluded if they met any of the following:
+
+\begin{itemize}
+    \item Marketing, opinion, consultancy, or agency content.
+    \item Non-UK or non-higher education materials.
+    \item Superseded sources lacking lineage value.
+    \item General consumer information without regulatory or standards relevance.
+    \item Items with no identifiable year, authoritativeness, or provenance.
+\end{itemize}
+
+\subsection{Screening Process}
+
+Screening followed a defined workflow:
+
+\begin{itemize}
+    \item Each record was logged in \texttt{screening\_log\_\_v0.1\_freeze\_2025-11-24.csv} under a DocID of the form \texttt{SRC-YY-\#\#\#}.
+    \item Items were assigned a status: Include / Exclude / Borderline.
+    \item ReasonCodes were applied per dictionary: I1--I4 (Inclusion), E1--E4 (Exclusion), B1 (Borderline).
+    \item Where licensing permitted, PDFs or web-prints of included items were downloaded locally for analysis. For copyright reasons, the public artefact bundle includes only the metadata in \texttt{evidence\_manifest\_\_v0.1\_freeze\_2025-11-24.csv}, not the PDFs themselves.
+    \item Second-reader sampling covered: random $\sim$15\% of all screened items, all Borderline items, and all Excluded items.
+    \item \raggedright Disagreements were resolved by discussion; escalated cases were recorded in \texttt{agreement\_summary\_\_v0.1\_2025-11-24.csv}.
+\end{itemize}
+
+\subsection{Data Extraction}
+
+Data extraction used the template in \texttt{evidence\_table\_\_v0.1\_freeze\_2025-11-24.csv}, with the following fields:
+
+\begin{itemize}
+    \item DocID; Title; Year; Jurisdiction; DocType; PrimaryFocus;
+    \item KeyProvisions/Descriptors; Levels/Credits; ExitAwards;
+    \item TNE/PartnerRules; Recognition/Entry (ENIC);
+    \item Citations; UseInReview.
+\end{itemize}
+
+\subsection{Risk and Limitations}
+\begin{itemize}
+    \item Search-process limitations were documented in real time and include the behaviours described below.
+    
+    \item Risks included regulatory updates between capture and analysis, site restructuring, PDFs without pagination, and sector reports that describe practice rather than prescribe requirements.
+    \item A small number of predefined queries (G3, G4 and G7) returned atypical results (e.g., image-only outputs or no indexed hits). These outcomes were retained verbatim for transparency, consistent with PRISMA expectations. As recommended in the protocol, no post hoc modification of queries was undertaken; results were recorded as returned, with additional checks made via internal domain search bars where applicable.
+
+    
+\end{itemize}
+
+
+\subsection{Deviations From Protocol}
+
+None.

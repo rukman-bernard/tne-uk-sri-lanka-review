@@ -1,0 +1,185 @@
+\section{Review Protocol v0.2}
+
+This appendix reproduces the protocol that governed all screening, extraction,
+quality assurance, and second-reader verification steps for this review. The
+protocol was finalised as Version~0.2 and followed without deviation. The
+original file (\texttt{protocol\_v0.2.md}) is archived alongside other
+repository artefacts.
+
+\subsection{Purpose and Scope}
+
+This protocol defines the procedures for identifying, screening, extracting,
+and validating evidence relating to UK higher education frameworks, levels,
+awards, regulatory oversight, qualification comparability, and transnational
+education (TNE) delivery with Sri Lankan partners.
+
+\subsection{Source Categories}
+
+Two categories of sources were defined:
+
+\begin{itemize}
+    \item \textbf{Fixed UK sources:} Office for Students (OfS); Quality Assurance 
+    Agency for Higher Education (QAA); Department for Education (DfE); UK~ENIC 
+    (ECCTIS); Universities~UK; SCQF Partnership; Scottish Funding Council (SFC); 
+    Welsh Government / CTER; Department for the Economy Northern Ireland (DfE~NI); 
+    Ofqual.
+
+    \item \textbf{Context sources (Sri Lanka):} Sri Lanka Qualifications Framework 
+    (SLQF) / University Grants Commission (UGC); British Council Sri~Lanka.
+\end{itemize}
+
+\noindent\textit{Note.} Potential Sri Lankan sources identified during protocol development 
+(MOHE, TVEC) yielded no eligible documents under the inclusion criteria and were 
+therefore not included in the final evidence set.
+
+
+
+Only official, authoritative, and versioned documents from these providers were
+eligible for inclusion.
+
+\subsection{Time Window}
+
+The review prioritised current versions in force as of~2025. Earlier versions
+were consulted for lineage or regulatory transition where required, generally
+back to approximately~2008.
+
+\subsection{Search Strategy}
+
+Eight predefined query groups (G1--G8) were executed verbatim on Google and on
+provider-domain search bars. Searches combined:
+
+\begin{itemize}
+    \item site-restricted queries;
+    \item award/credit/level terminology;
+    \item regulatory terms (conditions, quality, validation, franchise, TNE);
+    \item recognition/comparability terminology (ENIC, GCE~A/L, Sri~Lanka);
+    \item exit-award and intermediate-award terms;
+    \item partnership/oversight terms.
+\end{itemize}
+
+All queries were executed using identical syntax for reproducibility.
+
+\subsection{Inclusion Criteria}
+
+Items were included where they met one or more of the following:
+
+\begin{itemize}
+    \item official frameworks, award descriptors, qualification statements;
+    \item regulatory frameworks, conditions, sector-recognised principles;
+    \item official guidance for validation, franchise, or TNE;
+    \item university or awarding-body academic regulations (exit awards);
+    \item authoritative sector reports or peer-reviewed analyses.
+\end{itemize}
+
+\subsection{Exclusion Criteria}
+
+Items were excluded where they met one or more of the following:
+
+\begin{itemize}
+    \item opinion/marketing/blog/agent materials;
+    \item non-UK or non-HE materials;
+    \item superseded versions without lineage relevance;
+    \item general information without regulatory or standards substance;
+    \item documents without year, authority, or identifiable provenance.
+\end{itemize}
+
+\subsection{DocID Scheme}
+
+Each screened item was assigned a DocID of the form 
+\texttt{SRC-YY-\#\#\#} (where SRC is replaced by the source-provider prefix, 
+e.g., QAA, OFS, SLQF, BCSL). This identifier linked the screening log, evidence 
+table, PDF archive, and reference list.
+
+
+\subsection{Screening Process}
+
+Screening was logged in \texttt{screening\_log\_\_v0.1\_freeze\_2025-11-24.csv} with fields:
+
+\begin{itemize}
+    \item DocID;
+    \item Source;
+    \item URL and capture details;
+    \item Title;
+    \item Publisher;
+    \item Year;
+    \item Country;
+    \item DocType;
+    \item Status (Include / Exclude / Borderline);
+    \item ReasonCode (I1--I4, E1--E4, B1);
+    \item Notes;
+\end{itemize}
+
+\raggedright
+PDFs were saved under a consistent directory scheme. For example: \texttt{evidence/QAA/QAA-24-001\_\_QAA\_\_2024.pdf}. These files were logged in \texttt{evidence\_manifest\_\_v0.1\_freeze\_2025-11-24.csv}.
+
+
+\subsection{Second-Reader Sampling}
+
+A second reader independently reviewed:
+
+\begin{itemize}
+    \item approximately 15\% of included items,
+    \item all Borderline items,
+    \item all Excluded items.
+\end{itemize}
+
+Disagreements were resolved by discussion and summarised in
+\texttt{agreement\_summary\_\_v0.1\_2025-11-24.csv}.
+
+\subsection{Data Extraction}
+
+Extraction followed the schema in \texttt{evidence\_table\_\_v0.1\_freeze\_2025-11-24.csv}, including:
+
+\begin{itemize}
+    \item DocID, Title, Year, Jurisdiction, Document Type;
+    \item Primary Focus;
+    \item Key Provisions / Level Descriptors;
+    \item Levels and Credits;
+    \item Exit Awards;
+    \item TNE or Partnership Rules;
+    \item Recognition / Entry (ENIC);
+    \item Citations and Use in Review.
+\end{itemize}
+
+\subsection{Risk and Limitations}
+
+Risks included:
+
+\begin{itemize}
+    \item regulatory updates during the review period;
+    \item site restructures affecting URL access;
+    \item unpaginated PDFs;
+    \item sector reports that are descriptive rather than prescriptive.
+\end{itemize}
+
+\subsection{Deviations}
+
+No deviations occurred during the review.
+
+\subsection{ReasonCode Dictionary}
+
+The following ReasonCodes were used during screening and second-reader
+verification to ensure consistency, reproducibility, and auditability across all
+decisions. Codes are grouped into Inclusion (I1--I4), Exclusion (E1--E4), and
+Borderline (B1).
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{p{2cm} p{11cm}}
+\toprule
+\textbf{Code} & \textbf{Definition} \\
+\midrule
+I1 & Meets inclusion criteria: official framework, qualification descriptor, or award statement. \\
+I2 & Meets inclusion criteria: regulatory framework, condition, or sector-recognised principle. \\
+I3 & Meets inclusion criteria: official validation, franchise, or TNE guidance. \\
+I4 & Meets inclusion criteria: authoritative sector report or peer-reviewed analysis. \\
+\midrule
+E1 & Excluded: opinion, marketing, agent, promotional, or blog content. \\
+E2 & Excluded: non-UK or not higher-education-level material. \\
+E3 & Excluded: superseded or outdated version without lineage relevance. \\
+E4 & Excluded: insufficient authority, missing year, unverifiable provenance, or unclear source. \\
+\midrule
+B1 & Borderline relevance: requires additional judgement, context interpretation, or second-reader review. \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,12 @@
+Code,Category,Label,Definition,Example Use
+I1,Inclusion,Official Regulatory/Framework Document,"Primary framework or statutory document issued by an authorised body (e.g., FHEQ, SLQF, Ofqual Regs).","FHEQ 2024 issued by QAA"
+I2,Inclusion,Quality Assurance or Oversight Guidance,"Published code or handbook outlining QA, TNE, or validation oversight responsibilities.","QAA Quality Code; OfS Conditions of Registration"
+I3,Inclusion,Recognition/Comparability Source,"Official recognition or comparability statement relevant to UK–Sri Lanka alignment.","UK ENIC/ECCTIS statement on GCE A/L equivalence"
+I4,Inclusion,National or Sector Policy,"Government or funding-body document defining policy frameworks or qualification structures.","DfE HE Reform 2023; SFC quality guidance"
+
+E1,Exclusion,Non-HE or Irrelevant Sector,"Applies to schools, vocational training, or FE only, not higher education.","Ofqual GCSE regulation"
+E2,Exclusion,Duplicate or Superseded Version,"Older or identical version of a document already included.","FHEQ 2014 (superseded by 2024)"
+E3,Exclusion,Commentary or Press Material,"Opinion piece, blog, or news item not an official source.","QAA blog article on internationalisation"
+E4,Exclusion,Non-UK/Sri Lankan Jurisdiction,"Document issued by an authority outside target jurisdictions.","Australian AQF policy paper"
+
+B1,Borderline,Ambiguous or Mixed Relevance,"Document partially meets inclusion criteria or references HE indirectly; requires discussion/second-reader decision.","British Council Sri Lanka TNE brochure (general overview)"

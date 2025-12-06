@@ -1,0 +1,119 @@
+\documentclass[11pt,a4paper]{article}
+
+% ---------- Encoding, fonts, layout ----------
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{microtype}
+
+% ---------- Maths and tables ----------
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+
+% ---------- URLs and hyperlinks ----------
+\usepackage[hyphens]{url}
+\usepackage[hidelinks]{hyperref}
+\Urlmuskip=0mu plus 1mu
+\usepackage{orcidlink}
+
+% ---------- Boxes for structured summaries ----------
+\usepackage{tcolorbox}
+\tcbset{
+  colback=white,
+  colframe=black!60,
+  boxrule=0.4pt,
+  arc=2pt,
+  left=6pt,
+  right=6pt,
+  top=6pt,
+  bottom=6pt
+}
+
+% ---------- Spacing (optional, but nice for reports) ----------
+\usepackage{setspace}
+% \onehalfspacing % Uncomment if you want 1.5 line spacing
+
+% ---------- Title info ----------
+\title{UK Higher Education Levels, Awards, and Regulatory Oversight for\\
+Transnational Delivery with Sri Lankan Partners}
+
+\author{%
+  Rukman Bernard Fernando Pulle\,\orcidlink{0009-0001-2737-8367}\\[0.5ex]
+  \textit{Independent Researcher}\\
+  \textit{Sri Lanka}\\
+  \href{mailto:rukman.research@outlook.com}{rukman.research@outlook.com}\\
+  \href{https://orcid.org/0009-0001-2737-8367}{ORCID: 0009-0001-2737-8367}
+}
+
+
+
+\date{November 2025} % or \date{\today}
+
+% ======================================================================
+\begin{document}
+% ======================================================================
+
+\maketitle
+
+\begin{abstract}
+This review synthesises the qualification frameworks, award structures, and regulatory
+expectations that shape UK higher education delivery, with specific application to
+transnational education (TNE) in Sri Lanka. It analyses the alignment between the Frameworks
+for Higher Education Qualifications (FHEQ) and the Scottish Credit and Qualifications
+Framework (SCQF), outlines typical credit volumes and exit-award pathways, and summarises the
+governance arrangements across England, Scotland, Wales, and Northern Ireland. The review also
+examines the role of UK\,ENIC in supporting recognition and admissions, including advanced
+standing and comparability decisions. Using a structured evidence protocol with documented
+screening, extraction, and second-reader checks, the synthesis provides a replicable basis for
+understanding how provider accountability, quality assurance, student-protection duties, and
+reportable-events requirements apply in UK--Sri Lanka TNE provision. The findings offer a
+practical, standards-focused reference point for designing, delivering, and assuring
+academically credible and regulatorily compliant programmes that remain transparent and
+intelligible to students, partners, and regulators.
+\end{abstract}
+\textbf{Keywords:} UK Higher Education; FHEQ; SCQF; Transnational Education;
+UK ENIC; OfS Regulation; Quality Assurance; Sri Lanka Qualifications Framework;
+Exit Awards; Academic Standards; Partnership Governance; TNE Compliance.
+
+
+\tableofcontents
+\clearpage
+
+% =========================
+% Core sections
+% =========================
+
+\input{sections/01_introduction.tex}
+\input{sections/02_methods.tex}
+\input{sections/03_results_levels.tex}
+\input{sections/04_results_governance.tex}
+\input{sections/05_discussion.tex}
+\input{sections/06_conclusion.tex}
+
+% =========================
+% Optional Acknowledgements
+% =========================
+
+\input{sections/07_acknowledgements.tex}
+
+% Replace with e.g.:
+% ``The author gratefully acknowledges [Second Reader Name], [Affiliation], for conducting
+% second-reader checks on screening and data extraction.''
+
+% =========================
+% References and Appendices
+% =========================
+
+\input{sections/08_references_docid.tex}
+
+\appendix
+
+\input{sections/09_appendices.tex}
+\input{sections/10_protocol.tex}
+
+% ======================================================================
+\end{document}
+% ======================================================================

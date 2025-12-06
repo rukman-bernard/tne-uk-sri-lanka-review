@@ -1,0 +1,13 @@
+Control,What_This_Covers,Lead_vs_Partner_Responsibility,Required_Evidence,Where_Stored,Frequency,Status(TODO/DONE),Key_DocIDs
+"A1 Access & Participation (APP)","Approved APP; targets; publication","Lead sets/owns APP; partner supports","Approved APP PDF; KPI reports; web capture","repo/evidence/ofs","annual","TODO","OFS-22-001; DFE-23-001"
+"A2 Student support / fee limits","Fee limits; SLC support compliance","Lead accountable; partner implements locally","Fee schedule; SLC evidence; policy page","registry/sharepoint","annual","TODO","OFS-22-001"
+"B1–B2 Quality & standards oversight (TNE)","Course quality; academic standards oversight","Lead assures; partner delivers","Programme specs; monitoring minutes; TEF rating","QA/monitoring","termly","TODO","OFS-22-001; QAA-24-001"
+"B3 Student outcomes monitoring (TNE cohorts)","Continuation, completion, progression metrics","Lead tracks; partner supplies data","KPIs dashboard; cohort analysis","datawarehouse/bi","per cohort","TODO","OFS-22-001"
+"B4 Assessment design, delivery, moderation","Valid assessment; moderation; external examining","Lead approves; partner follows","Assessment strategy; moderation reports","QA/assurance","per cohort","TODO","QAA-24-001; OFS-22-001"
+"B5 Resources, support, student engagement","Learning resources; academic support; engagement","Lead assures; partner provides","Resource audits; student voice reports","QA/resources","annual","TODO","OFS-22-001"
+"B6 Sector-recognised standards alignment","Align with sector-recognised standards","Lead defines; partner evidences","Mapping to FHEQ/SCQF; exam board minutes","standards/mapping","annual","TODO","QAA-24-001"
+"C1 Consumer law compliance (pre-contract info)","Clear pre-contract information published","Lead sets templates; partner publishes","Offer letters; website capture","legal/compliance","annual","TODO","OFS-22-001"
+"C2 Approved complaints scheme membership","OIA/approved scheme membership evidence","Lead maintains; partner signposts","Membership certificate; student handbook","registry/policy","annual","TODO","OFS-22-001"
+"C3 Student Protection Plan (teach-out)","Approved SPP; teach-out arrangements","Lead owns SPP; partner executes","SPP PDF; risk triggers; communications","risk/closure","annual","TODO","OFS-22-001"
+"C4 Reportable events handling","Identification and timely reporting","Lead reports; partner alerts","Event log; notifications; board minutes","governance/logs","on event","TODO","OFS-22-001"
+"ENIC recognition in admissions","Comparability for entry/advanced standing","Lead policy; partner gathers docs","ENIC statements; admissions notes","admissions/files","per applicant","TODO","ENIC-25-001"
