@@ -1,5 +1,6 @@
 # 🇬🇧🇱🇰 UK–Sri Lanka Transnational Higher Education (TNE) Review
 
+[![GitHub Release](https://img.shields.io/github/v/release/rukman-bernard/tne-uk-sri-lanka-review)](https://github.com/rukman-bernard/tne-uk-sri-lanka-review/releases)
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17782443-blue)](https://doi.org/10.5281/zenodo.17782443)
 
 This repository contains the research artefacts, LaTeX sources, protocol files, and supplementary materials  
