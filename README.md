@@ -1,2 +1,32 @@
-# tne-uk-sri-lanka-review
-A structured review of UK–Sri Lanka transnational higher education, focusing on regulation, quality assurance, and award frameworks.
+# 🇬🇧🇱🇰 UK–Sri Lanka Transnational Higher Education (TNE) Review
+
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17782443-blue)](https://doi.org/10.5281/zenodo.17782443)
+
+This repository contains the research artefacts, LaTeX sources, protocol files, and supplementary materials  
+for the structured review **“Transnational Higher Education (TNE) Between the UK and Sri Lanka”**,  
+published on **Zenodo (2025)**.
+
+---
+
+## 📘 Abstract
+
+This structured review examines how **UK transnational higher education (TNE) is delivered in Sri Lanka**,  
+focusing on:
+
+- Cross-border regulation and oversight  
+- Alignment between UK frameworks (FHEQ, RQF, OfS) and Sri Lankan systems (SLQF, UGC)  
+- Award structures, progression models, and academic governance  
+- Responsibilities under validation, franchising, and collaborative arrangements  
+- Student protection and quality assurance across jurisdictions  
+
+The review synthesises evidence from regulatory documents, UK HE sector bodies, Sri Lankan legislation,  
+and institutional guidance.  
+It aims to support policy analysis, academic planning, and digital-system modelling  
+(e.g., programme structures, levels, awards) for cross-border higher education.
+
+The authoritative published version is available on Zenodo:  
+🔗 https://doi.org/10.5281/zenodo.17782443
+
+---
+
+## 📂 Repository Structure
