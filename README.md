@@ -33,13 +33,3 @@ The authoritative published version is available on Zenodo:
 🔗 https://doi.org/10.5281/zenodo.17782443
 
 ---
-
-## 📂 Repository Structure
-tne-uk-sri-lanka-review/
-├── docs/                 # Document index and metadata
-├── evidence/             # Screening log, evidence table, references
-├── manuscript/           # Full LaTeX source
-├── protocol/             # Protocol v0.2
-├── second_reader/        # Second-reader checks
-├── tables/               # Governance, levels, awards, compliance tables
-└── README.md
