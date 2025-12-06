@@ -1,8 +1,8 @@
 # 🇬🇧🇱🇰 UK–Sri Lanka Transnational Higher Education (TNE) Review
 
 [![GitHub Release](https://img.shields.io/github/v/release/rukman-bernard/tne-uk-sri-lanka-review)](https://github.com/rukman-bernard/tne-uk-sri-lanka-review/releases)
-[![ORCID](https://img.shields.io/badge/ORCID-0009--0001--2737--8367-brightgreen.svg)](https://orcid.org/0009-0001-2737-8367)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17782443.svg)](https://doi.org/10.5281/zenodo.17782443)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0001--2737--8367-brightgreen.svg)](https://orcid.org/0009-0001-2737-8367)
 ![GitHub Repo Size](https://img.shields.io/github/repo-size/rukman-bernard/tne-uk-sri-lanka-review)
 ![GitHub Last Commit](https://img.shields.io/github/last-commit/rukman-bernard/tne-uk-sri-lanka-review)
 [![License](https://img.shields.io/badge/License-CC--BY--4.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
