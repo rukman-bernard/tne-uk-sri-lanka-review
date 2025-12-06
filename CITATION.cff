@@ -2,19 +2,23 @@ cff-version: 1.2.0
 title: "UK Higher Education Levels, Awards, and Regulatory Oversight for Transnational Delivery with Sri Lankan Partners"
 message: "If you use this work, please cite it using the metadata below."
 type: dataset
+
 authors:
-  - family-names: Fernando Pulle
-    given-names: Rukman Bernard
+  - given-names: "Rukman"
+    family-names: "Bernard"
     affiliation: "Independent Researcher, Sri Lanka"
     orcid: "https://orcid.org/0009-0001-2737-8367"
-version: "v0.1"
+
+version: "v0.2"
 date-released: "2025-11-24"
 license: "CC-BY-4.0"
-repository-code: "https://zenodo.org/"
+
+repository-code: "https://github.com/rukman-bernard/tne-uk-sri-lanka-review"
+
 abstract: >
   This review synthesises the qualification frameworks, award structures,
-  and regulatory expectations that shape UK higher education delivery, with 
-  specific application to transnational education (TNE) in Sri Lanka. The 
-  artefact pack includes all evidence logs, extraction tables, second-reader 
-  verification files, and the protocol used in the structured review.
+  and regulatory expectations that shape UK higher education delivery,
+  with specific application to transnational education (TNE) in Sri Lanka.
+  The artefact pack includes all evidence logs, extraction tables,
+  second-reader verification files, and the protocol used in the structured review.
 
